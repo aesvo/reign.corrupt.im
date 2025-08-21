@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>not gay</title>
+  <link rel="icon" type="image/x-icon" href="assets/top.ico">
+</head>
+
+  <meta property="og:title" content="I’m Not Gay" />
+  <meta property="og:description" content="A modern, stylish text effect site with glassy and stacked outline text." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="I’m Not Gay" />
+  <meta name="twitter:description" content="A modern, stylish text effect site with glassy and stacked outline text." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Rubik:wght@800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .stack {
+      text-align: center;
+      line-height: 0.82; /* closer together */
+    }
+
+    .filled {
+      font-size: clamp(2.8rem, 10vw, 8rem); /* medium */
+      font-weight: 800;
+      display: block;
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .outline {
+      font-size: clamp(3.2rem, 11vw, 9rem); /* just a bit bigger */
+      font-weight: 800;
+      display: block;
+      color: transparent;
+      -webkit-text-stroke: 2px #fff;
+      font-family: "Rubik", sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="stack">
+    <div class="filled">I’m not gay</div>
+    <div class="outline">I’m not gay</div>
+    <div class="filled">I’m not gay</div>
+  </div>
+</body>
+</html>
